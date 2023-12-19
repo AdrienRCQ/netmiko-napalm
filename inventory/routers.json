@@ -1,0 +1,25 @@
+[
+    {
+        "hostname": "R01",
+        "host": " 172.16.100.126",
+        "device_type": "cisco_ios",
+        "username": "cisco",
+        "password": "cisco"
+    },
+    
+    {
+        "hostname": "R02",
+        "host": " 172.16.100.190",
+        "device_type": "cisco_ios",
+        "username": "cisco",
+        "password": "cisco"
+    },
+
+    {
+        "hostname": "R03",
+        "host": " 172.16.100.254",
+        "device_type": "cisco_ios",
+        "username": "cisco",
+        "password": "cisco"
+    }
+]

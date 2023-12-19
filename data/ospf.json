@@ -1,0 +1,70 @@
+{
+    "configs":[
+        {
+            "ospf": "yes",
+            "description": "ospf pour CPE-LYON",
+            "networks": [
+                {
+                    "adresse": "172.16.10.0",
+                    "mask": "0.0.0.255",
+                    "area": "0"
+                },
+                {
+                    "adresse": "172.16.20.0",
+                    "mask": "0.0.0.255",
+                    "area": "0"
+                },
+                {
+                    "adresse": "172.16.100.0",
+                    "mask": "0.0.0.63",
+                    "area": "0"
+                }
+            ]
+
+        },
+        {
+            "ospf": "yes",
+            "description": "ospf pour CPE-MARSEILLE",
+            "networks": [
+                {
+                    "adresse": "172.16.30.0",
+                    "mask": "0.0.0.255",
+                    "area": "0"
+                },
+                {
+                    "adresse": "172.16.40.0",
+                    "mask": "0.0.0.255",
+                    "area": "0"
+                },
+                {
+                    "adresse": "172.16.100.64",
+                    "mask": "0.0.0.63",
+                    "area": "0"
+                }
+            ]
+
+        },
+        {
+            "ospf": "yes",
+            "description": "ospf pour CPE-PARIS",
+            "networks": [
+                {
+                    "adresse": "172.16.50.0",
+                    "mask": "0.0.0.255",
+                    "area": "0"
+                },
+                {
+                    "adresse": "172.16.60.0",
+                    "mask": "0.0.0.255",
+                    "area": "0"
+                },
+                {
+                    "adresse": "172.16.100.192",
+                    "mask": "0.0.0.63",
+                    "area": "0"
+                }
+            ]
+
+        }
+    ]
+}

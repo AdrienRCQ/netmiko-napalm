@@ -1,0 +1,26 @@
+{
+    "configs":[
+        {
+            "ospf": "yes",
+            "description": "ospf pour CPE-MARSEILLE",
+            "networks": [
+                {
+                    "adresse": "172.16.30.0",
+                    "mask": "0.0.0.255",
+                    "area": "0"
+                },
+                {
+                    "adresse": "172.16.40.0",
+                    "mask": "0.0.0.255",
+                    "area": "0"
+                },
+                {
+                    "adresse": "172.16.100.64",
+                    "mask": "0.0.0.63",
+                    "area": "0"
+                }
+            ]
+
+        }
+    ]
+}

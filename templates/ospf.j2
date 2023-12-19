@@ -1,0 +1,8 @@
+router ospf 1
+{% for config in configs %}
+{% if config.ospf == "yes" %}
+{% for network in config.networks %}
+network {{ network.adresse }} {{ network.mask }} area {{ network.area }}
+{% endfor %}
+{% endif %}
+{% endfor %}
